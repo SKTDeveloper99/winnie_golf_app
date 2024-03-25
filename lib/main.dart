@@ -28,14 +28,14 @@ class BottomNavigationBarPage extends StatefulWidget {
       _BottomNavigationBarPageState();
 }
 
-class _BottomNavigationBarPageState
-    extends State<BottomNavigationBarPage> {
+class _BottomNavigationBarPageState extends State<BottomNavigationBarPage> {
   int _selectedIndex = 0;
   static const TextStyle optionStyle =
-  TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
+      TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static final List<Widget> _widgetOptions = <Widget>[
     Screen1(),
     Screen3(),
+    Screen2(),
     HistoryPage(),
   ];
 
@@ -62,6 +62,10 @@ class _BottomNavigationBarPageState
           BottomNavigationBarItem(
             icon: Icon(Icons.school),
             label: 'AI Coach',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.access_alarm),
+            label: 'Music',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.transfer_within_a_station),

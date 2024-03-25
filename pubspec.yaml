@@ -40,6 +40,8 @@ dependencies:
   chewie: ^1.7.1
   shared_preferences: ^2.2.2
   intl: ^0.18.1
+  just_audio: ^0.9.36
+  rxdart: ^0.27.7
 
 dev_dependencies:
   flutter_test:
